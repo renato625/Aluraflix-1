@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Academia de Barbearia</title>
+</head>
+
+<body>
+    <header>
+        <h1>Academia de Barbearia</h1>
+        <nav>
+            <ul>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#instrutores">Instrutores</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Aprenda com os melhores</h2>
+            <p>Transforme sua carreira com nossos cursos de barbearia.</p>
+        </div>
+        <div class="hero-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VMcX_HHlZio?si=7BR0IrUTALxLc3AC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="cursos" class="cursos">
+        <h2>Nossos Cursos</h2>
+        <div class="curso-list">
+            <div class="curso-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBTRVC1Xc642fcFzfULaMtCwEQiDQf1q3JA&s" alt="Curso 1">
+                <h3>Curso de Corte de Cabelo</h3>
+                <p>Aprenda técnicas avançadas de corte de cabelo.</p>
+            </div>
+            <div class="curso-item">
+                <img src="https://s2-glamour.glbimg.com/cYwouO8StSMZNIBdBMQ7sXJrHyk=/0x0:607x607/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_ba3db981e6d14e54bb84be31c923b00c/internal_photos/bs/2021/I/L/jWMSNHRqSJIBHhxKMMuw/2016-01-24-guime.jpg" alt="Curso 2">
+                <h3>Curso de Barba e Bigode</h3>
+                <p>Domine o cuidado e estilo de barba e bigode.</p>
+            </div>
+            <div class="curso-item">
+                <img src="https://akamai.sscdn.co/uploadfile/letras/fotos/5/c/f/8/5cf8191e68f7b7149001de3b406da394.jpg" alt="Curso 3">
+                <h3>Curso de Técnicas de Coloração</h3>
+                <p>Aprenda as melhores técnicas de coloração para cabelos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="instrutores" class="instrutores">
+        <h2>Conheça Nossos Instrutores</h2>
+        <div class="instrutor-list">
+            <div class="instrutor-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipf8dPtuW52V_l-f_EqGUl8-qfGwKZQrmpA&s" alt="Instrutor 1">
+                <h3>Renato Oliveira</h3>
+                <p>Especialista em cortes clássicos e modernos.</p>
+            </div>
+            <div class="instrutor-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR40QXHDBBGkP-IY7ErfEBUQYFEVL9CJB-jA&s" alt="Instrutor 2">
+                <h3>Vitor Goos</h3>
+                <p>Especialista em coloração e cuidados com a barba.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <h2>Entre em Contato</h2>
+        <form action="#">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Academia de Barbearia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
